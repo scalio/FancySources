@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FancySources"
-  s.version      = "1.1.4"
+  s.version      = "1.1.5"
   s.summary      = "Flexible, generic and abstracted from UIKit data sources."
   s.description  = "FancySources
 
@@ -45,6 +45,6 @@ func fill(with dataSource: DataSourceType) {
   s.source       = { :git => "https://github.com/Aranoledur/FancySources.git", :tag => "v#{s.version}" }
   s.source_files  = "FancySources", "FancySources/**/*.{h,m,swift}"
   s.exclude_files = "FancySources/Exclude"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
 
 end
